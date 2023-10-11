@@ -1,5 +1,5 @@
 pip
-python
+python== 3.9
 Flask==2.0.0
 Keras==2.4.3
 keras-nightly==2.5.0.dev2021032900
