@@ -1,5 +1,5 @@
 pip
-python==3.9.*
+python==3.8.*
 Flask
 Keras
 keras-nightly
