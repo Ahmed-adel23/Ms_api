@@ -6,5 +6,5 @@ Keras-Preprocessing
 numpy
 tensorflow
 opencv-python-headless
-PLT
+Pillow
 flask_restful
