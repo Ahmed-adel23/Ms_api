@@ -30,6 +30,8 @@ jobs:
         uses: azure/login@v1
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
+      - name: Upgrade Pip
+        run: pip install --upgrade pip
       - name: Install dependencies
         run: pip install -r requirements.txt
         
