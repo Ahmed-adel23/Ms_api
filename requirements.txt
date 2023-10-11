@@ -1,11 +1,11 @@
 pip
-python== 3.9
-Flask==2.0.0
-Keras==2.4.3
-keras-nightly==2.5.0.dev2021032900
-Keras-Preprocessing==1.1.2
-numpy==1.19.5
-tensorflow==2.6.0
-opencv-python-headless==4.5.3
+python==3.9.*
+Flask
+Keras
+keras-nightly
+Keras-Preprocessing
+numpy
+tensorflow
+opencv-python-headless
 PLT
 flask_restful
