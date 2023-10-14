@@ -4,8 +4,8 @@ from tensorflow.keras.models import load_model
 import io
 from flask_restful import Resource, Api, reqparse
 from werkzeug.datastructures import FileStorage
-app = Flask(__name__)
-api = Api(app)
+flask_app = Flask(__name__)
+api = Api(flask_app)
 # Load the trained GRU model
 model = load_model('g_model.h5')
 sequence_length = 30
