@@ -18,4 +18,4 @@ api.add_resource(MSPrediction3, '/MSPrediction3')
 api.add_resource(MSPrediction4, '/MSPrediction4')
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0' , port=8000)
+    app.run(host='0.0.0.0' )
