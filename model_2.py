@@ -4,8 +4,8 @@ import numpy as np
 import pandas as pd
 import tensorflow as tf
 from flask_restful import Resource, Api
-app = Flask(__name__)
-api = Api(app)
+flask_app = Flask(__name__)
+api = Api(flask_app)
 
 # Load the trained LSTM model
 model = load_model('istm_model.h5')
