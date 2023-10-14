@@ -101,6 +101,3 @@ class MSPrediction4(Resource):
                 return {'original_image':original_image_base64, 'mask_image':mask_image_base64}
 
         return jsonify(error="No file uploaded")
-
-if __name__ == '__main__':
-    app.run(debug=True)
