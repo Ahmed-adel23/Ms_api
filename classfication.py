@@ -7,8 +7,8 @@ import base64
 from io import BytesIO
 from PIL import Image
 from flask_restful import Resource, Api
-app = Flask(__name__)
-api = Api(app)
+flask_app = Flask(__name__)
+api = Api(flask_app)
 
 # Load your trained ResNet50 model (replace with the actual path to your model)
 model = load_model('cnn_model.h5')
