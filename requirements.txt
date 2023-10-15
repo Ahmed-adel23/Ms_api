@@ -8,4 +8,3 @@ tensorflow
 opencv-python-headless
 Pillow
 flask_restful
-pandas
